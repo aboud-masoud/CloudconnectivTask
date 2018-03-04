@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040081EF204BD20A00A7FE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040081EE204BD20A00A7FE8F /* AppDelegate.swift */; };
+		040081F1204BD20A00A7FE8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040081F0204BD20A00A7FE8F /* ViewController.swift */; };
+		040081F4204BD20A00A7FE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040081F2204BD20A00A7FE8F /* Main.storyboard */; };
+		040081F6204BD20A00A7FE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040081F5204BD20A00A7FE8F /* Assets.xcassets */; };
+		040081F9204BD20A00A7FE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040081F7204BD20A00A7FE8F /* LaunchScreen.storyboard */; };
+		04008204204BD20A00A7FE8F /* CloudconnectivTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04008203204BD20A00A7FE8F /* CloudconnectivTaskTests.swift */; };
+		0400820F204BD20A00A7FE8F /* CloudconnectivTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400820E204BD20A00A7FE8F /* CloudconnectivTaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04008200204BD20A00A7FE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040081E3204BD20A00A7FE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040081EA204BD20A00A7FE8F;
+			remoteInfo = CloudconnectivTask;
+		};
+		0400820B204BD20A00A7FE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040081E3204BD20A00A7FE8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040081EA204BD20A00A7FE8F;
+			remoteInfo = CloudconnectivTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040081EB204BD20A00A7FE8F /* CloudconnectivTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudconnectivTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040081EE204BD20A00A7FE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040081F0204BD20A00A7FE8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		040081F3204BD20A00A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040081F5204BD20A00A7FE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040081F8204BD20A00A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040081FA204BD20A00A7FE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040081FF204BD20A00A7FE8F /* CloudconnectivTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudconnectivTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04008203204BD20A00A7FE8F /* CloudconnectivTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudconnectivTaskTests.swift; sourceTree = "<group>"; };
+		04008205204BD20A00A7FE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0400820A204BD20A00A7FE8F /* CloudconnectivTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudconnectivTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0400820E204BD20A00A7FE8F /* CloudconnectivTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudconnectivTaskUITests.swift; sourceTree = "<group>"; };
+		04008210204BD20A00A7FE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040081E8204BD20A00A7FE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040081FC204BD20A00A7FE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04008207204BD20A00A7FE8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040081E2204BD20A00A7FE8F = {
+			isa = PBXGroup;
+			children = (
+				040081ED204BD20A00A7FE8F /* CloudconnectivTask */,
+				04008202204BD20A00A7FE8F /* CloudconnectivTaskTests */,
+				0400820D204BD20A00A7FE8F /* CloudconnectivTaskUITests */,
+				040081EC204BD20A00A7FE8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040081EC204BD20A00A7FE8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040081EB204BD20A00A7FE8F /* CloudconnectivTask.app */,
+				040081FF204BD20A00A7FE8F /* CloudconnectivTaskTests.xctest */,
+				0400820A204BD20A00A7FE8F /* CloudconnectivTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040081ED204BD20A00A7FE8F /* CloudconnectivTask */ = {
+			isa = PBXGroup;
+			children = (
+				040081EE204BD20A00A7FE8F /* AppDelegate.swift */,
+				040081F0204BD20A00A7FE8F /* ViewController.swift */,
+				040081F2204BD20A00A7FE8F /* Main.storyboard */,
+				040081F5204BD20A00A7FE8F /* Assets.xcassets */,
+				040081F7204BD20A00A7FE8F /* LaunchScreen.storyboard */,
+				040081FA204BD20A00A7FE8F /* Info.plist */,
+			);
+			path = CloudconnectivTask;
+			sourceTree = "<group>";
+		};
+		04008202204BD20A00A7FE8F /* CloudconnectivTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				04008203204BD20A00A7FE8F /* CloudconnectivTaskTests.swift */,
+				04008205204BD20A00A7FE8F /* Info.plist */,
+			);
+			path = CloudconnectivTaskTests;
+			sourceTree = "<group>";
+		};
+		0400820D204BD20A00A7FE8F /* CloudconnectivTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0400820E204BD20A00A7FE8F /* CloudconnectivTaskUITests.swift */,
+				04008210204BD20A00A7FE8F /* Info.plist */,
+			);
+			path = CloudconnectivTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040081EA204BD20A00A7FE8F /* CloudconnectivTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04008213204BD20A00A7FE8F /* Build configuration list for PBXNativeTarget "CloudconnectivTask" */;
+			buildPhases = (
+				040081E7204BD20A00A7FE8F /* Sources */,
+				040081E8204BD20A00A7FE8F /* Frameworks */,
+				040081E9204BD20A00A7FE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudconnectivTask;
+			productName = CloudconnectivTask;
+			productReference = 040081EB204BD20A00A7FE8F /* CloudconnectivTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040081FE204BD20A00A7FE8F /* CloudconnectivTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04008216204BD20A00A7FE8F /* Build configuration list for PBXNativeTarget "CloudconnectivTaskTests" */;
+			buildPhases = (
+				040081FB204BD20A00A7FE8F /* Sources */,
+				040081FC204BD20A00A7FE8F /* Frameworks */,
+				040081FD204BD20A00A7FE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04008201204BD20A00A7FE8F /* PBXTargetDependency */,
+			);
+			name = CloudconnectivTaskTests;
+			productName = CloudconnectivTaskTests;
+			productReference = 040081FF204BD20A00A7FE8F /* CloudconnectivTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04008209204BD20A00A7FE8F /* CloudconnectivTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04008219204BD20A00A7FE8F /* Build configuration list for PBXNativeTarget "CloudconnectivTaskUITests" */;
+			buildPhases = (
+				04008206204BD20A00A7FE8F /* Sources */,
+				04008207204BD20A00A7FE8F /* Frameworks */,
+				04008208204BD20A00A7FE8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0400820C204BD20A00A7FE8F /* PBXTargetDependency */,
+			);
+			name = CloudconnectivTaskUITests;
+			productName = CloudconnectivTaskUITests;
+			productReference = 0400820A204BD20A00A7FE8F /* CloudconnectivTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040081E3204BD20A00A7FE8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = OrderEra;
+				TargetAttributes = {
+					040081EA204BD20A00A7FE8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					040081FE204BD20A00A7FE8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040081EA204BD20A00A7FE8F;
+					};
+					04008209204BD20A00A7FE8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 040081EA204BD20A00A7FE8F;
+					};
+				};
+			};
+			buildConfigurationList = 040081E6204BD20A00A7FE8F /* Build configuration list for PBXProject "CloudconnectivTask" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040081E2204BD20A00A7FE8F;
+			productRefGroup = 040081EC204BD20A00A7FE8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040081EA204BD20A00A7FE8F /* CloudconnectivTask */,
+				040081FE204BD20A00A7FE8F /* CloudconnectivTaskTests */,
+				04008209204BD20A00A7FE8F /* CloudconnectivTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040081E9204BD20A00A7FE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040081F9204BD20A00A7FE8F /* LaunchScreen.storyboard in Resources */,
+				040081F6204BD20A00A7FE8F /* Assets.xcassets in Resources */,
+				040081F4204BD20A00A7FE8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040081FD204BD20A00A7FE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04008208204BD20A00A7FE8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040081E7204BD20A00A7FE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040081F1204BD20A00A7FE8F /* ViewController.swift in Sources */,
+				040081EF204BD20A00A7FE8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040081FB204BD20A00A7FE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04008204204BD20A00A7FE8F /* CloudconnectivTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04008206204BD20A00A7FE8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0400820F204BD20A00A7FE8F /* CloudconnectivTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04008201204BD20A00A7FE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040081EA204BD20A00A7FE8F /* CloudconnectivTask */;
+			targetProxy = 04008200204BD20A00A7FE8F /* PBXContainerItemProxy */;
+		};
+		0400820C204BD20A00A7FE8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040081EA204BD20A00A7FE8F /* CloudconnectivTask */;
+			targetProxy = 0400820B204BD20A00A7FE8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040081F2204BD20A00A7FE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040081F3204BD20A00A7FE8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040081F7204BD20A00A7FE8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040081F8204BD20A00A7FE8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04008211204BD20A00A7FE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04008212204BD20A00A7FE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04008214204BD20A00A7FE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX9H87DTX5;
+				INFOPLIST_FILE = CloudconnectivTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressSoft.Talk.CloudconnectivTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04008215204BD20A00A7FE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX9H87DTX5;
+				INFOPLIST_FILE = CloudconnectivTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressSoft.Talk.CloudconnectivTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04008217204BD20A00A7FE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX9H87DTX5;
+				INFOPLIST_FILE = CloudconnectivTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressSoft.Talk.CloudconnectivTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudconnectivTask.app/CloudconnectivTask";
+			};
+			name = Debug;
+		};
+		04008218204BD20A00A7FE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX9H87DTX5;
+				INFOPLIST_FILE = CloudconnectivTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressSoft.Talk.CloudconnectivTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudconnectivTask.app/CloudconnectivTask";
+			};
+			name = Release;
+		};
+		0400821A204BD20A00A7FE8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX9H87DTX5;
+				INFOPLIST_FILE = CloudconnectivTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressSoft.Talk.CloudconnectivTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudconnectivTask;
+			};
+			name = Debug;
+		};
+		0400821B204BD20A00A7FE8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DX9H87DTX5;
+				INFOPLIST_FILE = CloudconnectivTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ProgressSoft.Talk.CloudconnectivTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CloudconnectivTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040081E6204BD20A00A7FE8F /* Build configuration list for PBXProject "CloudconnectivTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04008211204BD20A00A7FE8F /* Debug */,
+				04008212204BD20A00A7FE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04008213204BD20A00A7FE8F /* Build configuration list for PBXNativeTarget "CloudconnectivTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04008214204BD20A00A7FE8F /* Debug */,
+				04008215204BD20A00A7FE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04008216204BD20A00A7FE8F /* Build configuration list for PBXNativeTarget "CloudconnectivTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04008217204BD20A00A7FE8F /* Debug */,
+				04008218204BD20A00A7FE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04008219204BD20A00A7FE8F /* Build configuration list for PBXNativeTarget "CloudconnectivTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0400821A204BD20A00A7FE8F /* Debug */,
+				0400821B204BD20A00A7FE8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040081E3204BD20A00A7FE8F /* Project object */;
+}
