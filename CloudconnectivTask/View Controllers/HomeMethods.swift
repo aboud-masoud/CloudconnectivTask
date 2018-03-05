@@ -20,7 +20,4 @@ extension HomeViewController {
         tableView.register(UINib(nibName: "HomeViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         tableView.register(UINib(nibName: "LoadMoreCell", bundle: nil), forCellReuseIdentifier: "loadMoreCell")
     }
-    
-    //TODO: Check MVC
-
 }

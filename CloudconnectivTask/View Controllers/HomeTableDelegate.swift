@@ -36,14 +36,14 @@ extension HomeViewController: UITableViewDataSource {
     }
     
     private func handleStatusViewColor(index: Int) -> UIColor {
-        switch arrayOfContect[index].Status! {
-        case 1:
+        switch arrayOfContect[index].status?.id! {
+        case 1?:
             return .green
-        case 2:
+        case 2?:
             return .orange
-        case 3:
+        case 3?:
             return .yellow
-        case 4:
+        case 4?:
             return .red
         default:
             return .gray

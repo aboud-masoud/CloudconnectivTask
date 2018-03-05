@@ -12,7 +12,6 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    //TODO: upload code to github
     var arrayOfContect: [Content] = []
     var counterOfPagenation = 0
     var totalElements: Int?

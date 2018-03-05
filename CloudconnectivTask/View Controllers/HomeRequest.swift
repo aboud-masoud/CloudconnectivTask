@@ -38,27 +38,14 @@ extension HomeViewController {
             let decoder = JSONDecoder()
             let data = SharedFunctions.convertJsonToDataFrom(json: dictContent)
             do {
-                guard let status = dictContent["status"] as? Dictionary<String, Any> else {
-                    return
-                }
-                var content = try decoder.decode(Content.self, from: data!)
-                let statusId = status["id"] as? Int
-                content.Status = statusId
+                let content = try decoder.decode(Content.self, from: data!)
                 self.arrayOfContect.append(content)
             } catch let error {
                 print(error.localizedDescription)
             }
         }
         
-//        last = response["last"] as? Bool
-//        totalPages = response["totalPages"] as? Int
         totalElements = response["totalElements"] as? Int
-//        first = response["first"] as? Bool
-//        numberOfElements = response["numberOfElements"] as? Int
-//        sort = response["sort"] as? Int
-//        size = response["size"] as? Int
-//        number = response["number"] as? Int
-
         tableView.reloadData()
     }
 }

@@ -13,5 +13,5 @@ struct Content: Codable {
     let name:String?
     let ipAddress:String?
     let ipSubnetMask:String?
-    var Status:Int?
+    var status:Status?
 }
