@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="CloudconnectivTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu.png" translatesAutoresizingMaskIntoConstraints="NO" id="7x4-gi-H95">
+                                <rect key="frame" x="0.0" y="0.0" width="79" height="768"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="cQX-fI-Xca"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topBar.png" translatesAutoresizingMaskIntoConstraints="NO" id="arI-8X-p2K">
+                                <rect key="frame" x="79" y="0.0" width="945" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="wxK-35-c0A"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="50" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wte-fZ-FAb">
+                                <rect key="frame" x="79" y="60" width="945" height="708"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="E7p-Y2-AFB"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ABw-zv-RSJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7x4-gi-H95" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DgE-Zk-4RS"/>
+                            <constraint firstItem="Wte-fZ-FAb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Itc-pg-9x1"/>
+                            <constraint firstItem="arI-8X-p2K" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="N2n-vQ-6Dh"/>
+                            <constraint firstItem="arI-8X-p2K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PsX-Xf-EF8"/>
+                            <constraint firstItem="arI-8X-p2K" firstAttribute="leading" secondItem="7x4-gi-H95" secondAttribute="trailing" id="RLa-QW-oKw"/>
+                            <constraint firstItem="Wte-fZ-FAb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Xkp-Kq-cTT"/>
+                            <constraint firstItem="7x4-gi-H95" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZZC-EF-DoY"/>
+                            <constraint firstItem="Wte-fZ-FAb" firstAttribute="leading" secondItem="7x4-gi-H95" secondAttribute="trailing" id="cHL-yq-7th"/>
+                            <constraint firstItem="Wte-fZ-FAb" firstAttribute="top" secondItem="arI-8X-p2K" secondAttribute="bottom" id="lCV-dg-73N"/>
+                            <constraint firstItem="7x4-gi-H95" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sst-20-3H7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Wte-fZ-FAb" id="0W3-PV-XxK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118.75" y="117.77343749999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu.png" width="79" height="957"/>
+        <image name="topBar.png" width="1195" height="67"/>
+    </resources>
+</document>
